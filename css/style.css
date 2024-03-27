@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container_ {
+  margin: 0 auto;
+  width: 80%;
+}
+body {
+  background-color: rgba(92, 15, 235, 0.507);
+}
+.card__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card__section h1 {
+  color: #fff;
+  font-size: 4em;
+}
+.card__section p{
+    font-size: 2em;
+}
+button {
+  padding: 1em 3em;
+  background-color: #fff;
+  color: purple;
+  cursor: pointer;
+}
+
+.card__section ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style-type: none;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 2em;
+  gap: 1.5em;
+  text-decoration: underline;
+  position: fixed;
+}
+.card__section h4{
+    font-size: 2em;
+}
