@@ -11,6 +11,23 @@
 body {
   background-color: rgba(92, 15, 235, 0.507);
 }
+.laugh__face{
+  width:100vmin;
+  padding: 90px 50px;
+  background-color:black ;
+ position:absolute;
+ transform: translate(-50%,-50px);
+ top:50%;
+ left:70%;
+ box-shadow: 20px 20px 40pxrgba(97,63,0,0.4);
+
+}
+span{
+  display: block;
+  text-align:center;
+  font-size: 100px;
+
+}
 .card__section {
   display: flex;
   justify-content: center;
@@ -38,11 +55,21 @@ button {
   list-style-type: none;
   flex-direction: column;
   cursor: pointer;
-  font-size: 2em;
-  gap: 1.5em;
+  font-size: 1.5em;
   text-decoration: underline;
-  position: fixed;
+  position:relative;
+
 }
 .card__section h4{
-    font-size: 1.7em;
+    font-size: 1.2em;
+    color:#fff;
+    /* font-weight: 400; */
+    word-wrap: break-word;
+    line-height: 35px;
+    position: absolute;
+    top:70%;
+    width:50%
+    /* right:-4%; */
+    
+
 }
